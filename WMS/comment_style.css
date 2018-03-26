@@ -1,0 +1,83 @@
+h1
+{
+	color:#000;
+	text-align:center;
+	margin-top:50px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+#comments
+{
+	text-align:left;
+	background:#4caf50;
+	padding-bottom:20px;
+	overflow:auto;
+	height:500px;
+	border-top:2px solid #fff;
+}
+#form
+{
+	text-align:left;
+	background:#4caf50;
+	padding-bottom:20px;
+}
+textarea
+{
+	width:500px;
+	height:150px;
+	border:1px solid silver;
+	border-radius:5px;
+	font-size:17px;
+	padding:10px;
+	font-family:helvetica;
+}
+input[type="text"]
+{
+	width:500px;
+	height:45px;
+	border:1px solid silver;
+	margin-top:10px;
+	border-radius:5px;
+	font-size:17px;
+	padding:10px;
+	font-family:helvetica;
+}
+input[type="submit"]
+{
+	width:150px;
+	height:40px;
+	border:none;
+	background-color:#2E64FE;
+	color:white;
+	margin-top:10px;
+	border-radius:5px;
+	font-size:17px;
+}
+.comment_div
+{
+	width:500px;
+	background-color:white;
+	margin-top:20px;
+	text-align:left;
+}
+.comment_div .name
+{
+	height:30px;
+	line-height:30px;
+	padding:10px;
+	background-color:grey;
+	color:white;
+	text-align:left;
+}
+.comment_div .comment
+{
+	padding:10px;
+}
+.comment_div .time
+{
+	font-style:italic;
+	padding:10px;
+	background-color:grey;
+	color:white;
+	text-align:left;
+}
