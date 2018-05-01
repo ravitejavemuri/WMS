@@ -4,10 +4,10 @@ header('Content-Type: application/json');
 //database
 //$db=mysqli_connect("mysql7.000webhost.com","a9317919_ravi","raviiot8","a9317919_steel")or die("unable to connect");
 
-define('DB_HOST', 'mysql7.000webhost.com');
-define('DB_USERNAME', 'a9317919_ravi');
-define('DB_PASSWORD', 'raviiot8');
-define('DB_NAME', 'a9317919_steel');
+define('DB_HOST', '');
+define('DB_USERNAME', '');
+define('DB_PASSWORD', 'r');
+define('DB_NAME', '');
 //get connection
 $mysqli = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
 if(!$mysqli){
