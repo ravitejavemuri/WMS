@@ -199,8 +199,8 @@ function openCity(evt, cityName) {
 	}
 	*/
 </script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=
-AIzaSyABUlAOWtwKMnT9biF_OkMCb6pFmCLtnFs&callback=GetAddress"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=cxcxxxxxxxxxxxxxKe22y
+&callback=GetAddress"></script>
 
 
 </body>
