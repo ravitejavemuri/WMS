@@ -23,9 +23,8 @@ body { margin: 20; padding: 20; overflow:hidden; }
 
 <?php
   //$deli=0.000001;
-	//$db=mysqli_connect("localhost","id1087204_teamwms","teamwms","id1087204_megamount")or die("unable to connect");
+	
 	$db=mysqli_connect("dive.in","root","","megamount")or die("unable to connect");
-	//$con=mysqli_connect("mysql7.000webhost.com","a9317919_ravi","raviiot8","a9317919_steel");
 	
 	
 
