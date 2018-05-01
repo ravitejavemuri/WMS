@@ -22,9 +22,9 @@ body { margin: 20; padding: 20; overflow:hidden; }
 </style>
 <?php
   //$deli=0.000001;
-	//$db=mysqli_connect("localhost","id1087204_teamwms","teamwms","id1087204_megamount")or die("unable to connect");
+	
 	$db=mysqli_connect("dive.in","root","","megamount")or die("unable to connect");
-	//$con=mysqli_connect("mysql7.000webhost.com","a9317919_ravi","raviiot8","a9317919_steel");
+	
 	
 	
 
@@ -149,7 +149,7 @@ body { margin: 20; padding: 20; overflow:hidden; }
 <body onload="initialize()">
 <p id="Loc"> </p>
 <script src="https://maps.googleapis.com/maps/api/js?key=
-AIzaSyABUlAOWtwKMnT9biF_OkMCb6pFmCLtnFs&callback=initialize"></script>
+&callback=initialize"></script>
 	<script type="text/javascript" src="custom_map_tooltip.js"></script>
 <div id="map_canvas"></div>
 <div id="sample"></div>
